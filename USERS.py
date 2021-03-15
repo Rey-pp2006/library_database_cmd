@@ -148,7 +148,7 @@ def generate_new_ID():
     final_ID="".join(ID)
     return check_ID(final_ID)
 
-generate_new_ID()
+#generate_new_ID()
  
 mydb.commit()
 mydb.close()
